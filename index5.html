@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script> <!-- 引入原有的 JavaScript 文件 -->
+<script src="clock.js" defer></script> <!-- 引入时钟功能的 JavaScript 文件 -->
+<script src="screeninfo.js" defer></script> <!-- 引入屏幕信息的 JavaScript 文件 -->
+<script src="mouseEvent.js" defer></script> <!-- 引入鼠标坐标的 JavaScript 文件 -->
+<script src="lastModified.js" defer></script> <!-- 引入网页最后修改时间的 JavaScript 文件 -->
+  <title>郭0502三班Edge</title>
+</head>
+
+<body>
+  <h1>员工信息</h1>
+  <div class="department tech-dept">
+    <h2>技术部</h2>
+    <div class="employee-card" id="special-employee">
+      <p>姓名：张三</p>
+      <p>职位：技术经理</p>
+      <p>评分：4.6 <span class="high-rating">高绩效员工</span></p>
+    </div>
+    <div class="employee-card">
+      <p>姓名：李四</p>
+      <p>职位：软件工程师</p>
+      <p>评分：4.8 <span class="high-rating">高绩效员工</span></p>
+    </div>
+    <div class="employee-card">
+      <p>姓名：王五</p>
+      <p>职位：技术顾问</p>
+      <p>评分：4.3</p>
+    </div>
+  </div>
+  <div class="department marketing-dept">
+    <h2>市场部</h2>
+    <div class="employee-card">
+      <p>姓名：赵六</p>
+      <p>职位：市场总监</p>
+      <p>评分：4.4</p>
+    </div>
+    <div class="employee-card">
+      <p>姓名：钱七</p>
+      <p>职位：市场专员</p>
+      <p>评分：4.7 <span class="high-rating">高绩效员工</span></p>
+    </div>
+  </div>
+  <div class="department hr-dept">
+    <h2>人事部</h2>
+    <div class="employee-card">
+      <p>姓名：周八</p>
+      <p>职位：招聘专员</p>
+      <p>评分：4.5 <span class="high-rating">高绩效员工</span></p>
+    </div>
+    <div class="employee-card">
+      <p>姓名：吴九</p>
+      <p>职位：人事经理</p>
+      <p>评分：4.6 <span class="high-rating">高绩效员工</span></p>
+    </div>
+  </div>
+   <!-- 时钟显示 -->
+   <div id="clock" style="font-size: 2rem; margin-top: 20px;">时钟加载中...</div>
+  
+   <!-- 屏幕信息显示 -->
+   <div id="screeninfo" style="font-size: 1rem; margin-top: 20px;">屏幕信息加载中...</div>
+   
+   <!-- 鼠标按下坐标显示 -->
+   <div id="mouseEvent" style="font-size: 1rem; margin-top: 20px;">鼠标坐标加载中...</div>
+   
+   <!-- 显示网页最后修改时间 -->
+   <div id="lastmodified" style="font-size: 1rem; margin-top: 20px;">网页最后修改时间加载中...</div>
+ </body>
+</body>
+
+</html>
